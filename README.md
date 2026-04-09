@@ -12,7 +12,7 @@
 
 This project allows you to run ComfyUI workflows as a serverless API endpoint on the RunPod platform. Submit workflows via API calls and receive generated images as base64 strings or S3 URLs.
 
-## Table of Contents/test
+## Table of Contents/testv2
 
 - [Quickstart](#quickstart)
 - [Available Docker Images](#available-docker-images)
