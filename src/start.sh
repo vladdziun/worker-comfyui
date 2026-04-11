@@ -51,28 +51,3 @@ else
     echo "worker-comfyui: Starting RunPod Handler"
     python -u /handler.py
 fi
-```
-
----
-
-## What Changed
-```
-Only 2 lines changed:
-→ Added --disable-safety-checker to both
-   python /comfyui/main.py launch commands
-→ Everything else is identical to original
-```
-
----
-
-## Steps
-```
-1. Go to your forked GitHub repo
-2. Click start.sh
-3. Click pencil icon (Edit)
-4. Select all → Delete
-5. Paste the complete file above
-6. Click "Commit changes"
-7. Also reset COMFY_LOG_LEVEL env var 
-   back to just: DEBUG
-8. Redeploy endpoint on RunPod
